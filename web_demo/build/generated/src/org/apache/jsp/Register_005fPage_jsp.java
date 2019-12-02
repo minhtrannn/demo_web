@@ -143,7 +143,11 @@ public final class Register_005fPage_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("            <div class=\"register-part-1\">\n");
       out.write("                <div class=\"register-part-1-contain\">\n");
       out.write("                    <div class=\"logo-register\">\n");
-      out.write("                        REGISTER\n");
+      out.write("                        <h2>REGISTER</h2>\n");
+      out.write("                    </div>\n");
+      out.write("                    <div class=\"register-name\">\n");
+      out.write("                        <h2>YOUR NAME</h2>\n");
+      out.write("                        <div></div>\n");
       out.write("                    </div>\n");
       out.write("                </div>\n");
       out.write("            </div>\n");

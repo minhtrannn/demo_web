@@ -106,10 +106,28 @@
                     <div class="logo-register">
                         <h2>REGISTER</h2>
                     </div>
-                    <div class="register-name">
-                        <h2>YOUR NAME</h2>
-                        <div></div>
-                    </div>
+                    <form class="form-register">
+                        <h5>YOUR NAME</h5>
+                        <div class="form-register-input">
+                            <input placeholder="NAME" name="firstName" required type="text"></input>       
+                        </div>
+                        <div class="form-register-input">
+                            <input placeholder="LAST NAME" name="lastName" required type="text"></input>       
+                        </div>
+                        <h5>LOGIN DETAIL</h5>
+                        <div class="form-register-input">
+                            <input placeholder="EMAIL" name="email" required type="text"></input>       
+                        </div>
+                        <div class="form-register-input">
+                            <input placeholder="PASSWORD" name="password" required type="text"></input>       
+                        </div>        
+                        <button class="register-now" type="submit" aria-label="Register">
+                            <div>
+                                <span>REGISTER</span>
+                            </div>
+                            <svg style="padding:12px;width:25px;height:25px;color:white;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg>
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="register-part-2">
