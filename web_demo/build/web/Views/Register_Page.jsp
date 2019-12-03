@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link href="CSS/CSS_Home_Page/header.css" rel="stylesheet" type="text/css"/>
-        <link href="CSS/CSS_Register_Page/header-promotion.css" rel="stylesheet" type="text/css"/>
-        <link href="CSS/CSS_Home_Page/footer.css" rel="stylesheet" type="text/css"/>
-        <link href="CSS/CSS_Register_Page/body-register-page.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Home_Page/header.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Register_Page/header-promotion.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Home_Page/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Register_Page/body-register-page.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="header" >

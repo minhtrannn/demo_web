@@ -10,9 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link href="CSS/CSS_Home_Page/header.css" rel="stylesheet" type="text/css"/>
-        <link href="CSS/CSS_Home_Page/body-page.css" rel="stylesheet" type="text/css"/>
-        <link href="CSS/CSS_Home_Page/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Home_Page/body-page.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Home_Page/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="../CSS/CSS_Home_Page/header.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body>
@@ -85,7 +85,7 @@
             <div class="body-page-part1">
                 <div class="video-content">
                     <video loop autoplay muted playsinline>
-                        <source src="Videos/Video_page_1.mp4" type="video/mp4">
+                        <source src="../Videos/Video_page_1.mp4" type="video/mp4">
                         Your browser does not support the <code>video</code> tag.
                     </video>
                 </div>
@@ -103,28 +103,28 @@
             <div class="body-page-part2">
                 <div class="body-page-part2-contain">
                     <div class="type-discount">
-                        <img src="Images/sneak_discount.jpg" alt=""/>
+                        <img src="../Images/sneak_discount.jpg" alt=""/>
                         <div class="type-discount-content">
                             <span style="padding:2px">SHOP NOW</span>
                         </div>
                     </div>
                     
                     <div class="type-discount">
-                        <img src="Images/gift_discount.jpg" alt=""/>
+                        <img src="../Images/gift_discount.jpg" alt=""/>
                         <div class="type-discount-content">
                             <span style="padding:2px">SHOP NOW</span>
                         </div>
                     </div>
                     
                     <div class="type-discount">
-                        <img src="Images/gift_discount.jpg" alt=""/>
+                        <img src="../Images/gift_discount.jpg" alt=""/>
                         <div class="type-discount-content">
                             <span style="padding:2px">SHOP NOW</span>
                         </div>
                     </div>    
 
                     <div class="type-discount">
-                        <img src="Images/gift_discount.jpg" alt=""/>
+                        <img src="../Images/gift_discount.jpg" alt=""/>
                         <div class="type-discount-content">
                             <span style="padding:2px">SHOP NOW</span>
                         </div>
@@ -134,7 +134,7 @@
             <div class="body-page-part3">
                 <div class="body-page-part3-contain">
                     <div class="body-page-part3-chapter">
-                        <img src="Images/deal_for_kids.jpg" alt=""/>
+                        <img src="../Images/deal_for_kids.jpg" alt=""/>
                         <div class="chapter-content">
                             <div class="chapter-content-start">
                                 <h2>DEALS FOR KIDS</h2>
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="body-page-part3-chapter">
-                        <img src="Images/gift_for_all.jpg" alt=""/>
+                        <img src="../Images/gift_for_all.jpg" alt=""/>
                         <div class="chapter-content">
                             <div class="chapter-content-start">
                                 <h2>GIFTS FOR ALL</h2>
@@ -179,7 +179,7 @@
                                 <svg style="width: 18px;height: 20px;margin-right: 15px;margin-top: 10px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"/></svg>
                             </div>
                             <div class="shoe-trending-image">
-                                <img src="Images/shoe-trending-1.jpg" alt=""/>
+                                <img src="../Images/shoe-trending-1.jpg" alt=""/>
                             </div>
                             <div class="shoe-trending-content">
                                 <div class="typeof-shoe-trending">Originals</div>
@@ -194,7 +194,7 @@
                                 <div class="shoe-trending-like">
                                     <svg style="width: 18px;height: 20px;margin-right: 15px;margin-top: 10px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"/></svg>
                                 </div>
-                                <img src="Images/shoe-trending-2.jpg" alt=""/>
+                                <img src="../Images/shoe-trending-2.jpg" alt=""/>
                                  <div class="shoe-trending-content">
                                     <div class="typeof-shoe-trending">Originals</div>
                                     <div class="costof-shoe-trending">
@@ -210,7 +210,7 @@
                                 <svg style="width: 18px;height: 20px;margin-right: 15px;margin-top: 10px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"/></svg>
                             </div>                            
                             <div class="shoe-trending-image">
-                                <img src="Images/shoe-trending-3.jpg" alt=""/>
+                                <img src="../Images/shoe-trending-3.jpg" alt=""/>
                             </div>
                             <div class="shoe-trending-content">
                                 <div class="typeof-shoe-trending">Originals</div>   
@@ -225,7 +225,7 @@
                                 <svg style="width: 18px;height: 20px;margin-right: 15px;margin-top: 10px;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"/></svg>
                             </div>                             
                             <div class="shoe-trending-image">
-                                <img src="Images/shoe-trending-5.jpg" alt=""/>
+                                <img src="../Images/shoe-trending-5.jpg" alt=""/>
                             </div>
                             <div class="shoe-trending-content">
                                 <div class="typeof-shoe-trending">Originals</div>                                
@@ -415,5 +415,5 @@
             </div>
         </div>
     </body>
-    <script src="Javascript/homepage.js" type="text/javascript"></script>
+    <script src="../Javascript/js_home_page/homePage.js" type="text/javascript"></script>
 </html>
