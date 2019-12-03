@@ -114,9 +114,13 @@
                         <div class="form-register-input">
                             <input placeholder="LAST NAME" name="lastName" required type="text"></input>       
                         </div>
-                        <h5>LOGIN DETAIL</h5>
+                        <h5>EMAIL</h5>
                         <div class="form-register-input">
                             <input placeholder="EMAIL" name="email" required type="text"></input>       
+                        </div>
+                        <h5>LOGIN DETAIL</h5>
+                        <div class="form-register-input">
+                            <input placeholder="USERNAME" name="username" required type="text"></input>       
                         </div>
                         <div class="form-register-input">
                             <input placeholder="PASSWORD" name="password" required type="text"></input>       
@@ -131,7 +135,50 @@
                 </div>
             </div>
             <div class="register-part-2">
-                
+                <div class="register-part-2-contain">
+                    <div class="logo-register">
+                        <h2>REGISTER AND JOIN THE GLAZERR CREATORS CLUB</h2> 
+                    </div>
+                    <div>
+                        <p>Create an account with Glazerr :</p>
+                        <ul>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Earn easy points for exclusive rewards
+                            </li>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>                                
+                                Access the best special offers and promotions
+                            </li>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Receive invites to exclusive events
+                            </li>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Get access to limited edition products
+                            </li>
+                            <li class="benefit-register">  
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>                                
+                                Level up for a Runtastic Premium subscription
+                            </li>
+                            <li class="benefit-register"> 
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>                                
+                                Faster checkout with your saved address and payment details
+                            </li>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>                                
+                                Access your complete order history
+                            </li>
+                            <li class="benefit-register">
+                                <svg style="width: 20px;height: 20px;margin-right: 10px;"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>                                
+                                Track your order delivery
+                            </li>
+                        </ul>
+                        <div>Want to learn more about the Creators Club? </div>
+                        <a class="information-register">Read more about free membership</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="footer-page">
